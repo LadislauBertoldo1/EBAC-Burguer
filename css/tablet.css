@@ -1,0 +1,45 @@
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    header {
+        height: 90%;
+        padding: 5px 0;
+    }
+
+    header .container .cabecalho {
+        justify-content: space-around;
+        padding-top: 5px;
+    }
+
+    .container .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .submenu-promocao,
+    .submenu-hamburguer,
+    .submenu-sobremesa {
+        width: 180px;
+    }
+
+    .hamburguer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hamburguer h3 {
+        font-size: 16px;
+        padding: 0 2em;
+        width: 700px;
+    }
+
+    .lanche h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hamburguers {
+        grid-template-columns: 20% 20% 20% ;
+    }
+
+} 

@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Cabeca - Barra principal topo */
+
+header .container .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 18px 0 10px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #771212;
+    background-color: #771212;
+    color: bisque;
+}
+
+.cabecalho input {
+    height: 30px;
+}
+
+.cabecalho button {
+    position: relative;
+    top: 0.5em;
+}
+
+header img {
+    height: 25px;
+    cursor: pointer;
+}
+
+.cabecalho input {
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pesquisar button {
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-promocao > li,
+.menu-hamburguer > li,
+.menu-sobremesa > li {
+    float: left;
+    list-style: none;
+    padding: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.submenu-promocao,
+.submenu-hamburguer,
+.submenu-sobremesa {
+    display: none;
+    background-color: #771212;
+    position: absolute;
+    width: 250px;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    align-content: center;
+}
+
+.submenu-promocao li,
+.submenu-hamburguer li,
+.submenu-sobremesa li {
+    margin-left: 2em;
+    margin-top: .2em;
+    margin-bottom: .6em;
+}
+
+.submenu-promocao a,
+.submenu-hamburguer a,
+.submenu-sobremesa a {
+    color: bisque;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-promocao li:hover {
+    background-color: #771212;
+    color: bisque;
+    transition: .5s;
+}
+
+.menu-hamburguer li:hover {
+    background-color: #771212;
+    color: bisque;
+    transition: .5s;
+}
+
+.menu-sobremesa li:hover {
+    background-color: #771212;
+    color: bisque;
+    transition: .5s;
+}
+
+/* Imagens produtos */
+
+.hamburguer img {
+    width: 550px;
+}
+
+.hamburguer {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    align-content: center;
+}
+
+.hamburguer {
+    padding: 0 0 18p
+}
+
+.hamburguer h2 {
+    font-size: xxx-large;
+    padding: .5em 0 .5em;
+    color: #771212;
+    text-transform: uppercase;
+}
+.hamburguer h2 span {
+    color: rgb(255, 238, 0);    
+    text-transform: uppercase;
+}
+
+.hamburguer h3 {
+    text-align: justify;
+}
+
+.container .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hamburguers {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 15px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.lanche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lanche img {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 8px;
+}
+
+.pedidos h2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #771212;
+    margin-bottom: 15px;
+    color: #771212;
+}
+
+.lanche a {
+    color: black;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.lanche a input {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 100px / 120px;
+}
+
+.lanche a input:hover {
+    background-color: #771212;
+    color: bisque;
+    cursor: pointer;
+    transition: .4s;
+}

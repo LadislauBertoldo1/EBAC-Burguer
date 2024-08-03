@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Importacao do CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/phone.css" />
+
+    <!-- Importando fonte do Google -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+
+    <title>Ebac Burguer</title>
+  </head>
+
+  <body>
+    <!-- Cabecalho -->
+    <header>
+      <div class="container">
+        <div class="cabecalho">
+          <h1>Ebac Burguer</h1>
+
+          <!-- campo de busca -->
+          <form class="pesquisar">
+            <input type="search" placeholder="Buscar" />
+            <button type="button">
+              <img src="./assets/search.png" alt="Icone pesquisar" />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Barra de pesquisa -->
+      <div class="container">
+        <nav class="menu">
+          <ul class="menu-promocao">
+            <li>
+              Promocao
+
+              <!-- Sub menus -->
+              <ul class="submenu-promocao">
+                <li><a href="#hamburguer">Hamburguer</a></li>
+                <li><a href="#">Refrigerantes</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="menu-hamburguer">
+            <li>
+              Hamburguer
+
+              <!-- Sub menus -->
+              <ul class="submenu-hamburguer">
+                <li><a href="#">Hamburguer</a></li>
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Combos</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="menu-sobremesa">
+            <li>
+              Sobremesas
+
+              <!-- Sub menus -->
+              <ul class="submenu-sobremesa">
+                <li><a href="#">Sorvete</a></li>
+                <li><a href="#">Acai</a></li>
+                <li><a href="#">Milkshake</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Imagem loja -->
+    <div class="container">
+      <main>
+        <section class="hamburguer">
+          <a href="#"> <img src="./assets/Hamburgueria.jpg" /></a>
+          <div class="container info">
+            <h2>Sobre <span>Nos</span></h2>
+            <h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed optio
+              eligendi corporis consectetur debitis adipisci harum fugit laborum
+              nam quod est iure incidunt!
+            </h3>
+          </div>
+        </section>
+
+        <!-- imagens conteudos -->
+        <section class="pedidos" id="hamburguer">
+          <h2>Mais pedidos</h2>
+          <div class="carrousel">
+            <div class="hamburguers">
+              <article class="lanche">
+                <img src="./assets/1.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/2.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/3.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/3.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/4.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/5.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/2.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+
+              <article class="lanche">
+                <img src="./assets/3.jpg" alt="hamburguer" />
+                <h3>Hamburguer Artesanal</h3>
+                <a href="#">
+                  <input type="button" value="Adicionar ao carrinho" />
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- Importando o Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Importacao do Java Script -->
+    <script src="Jquery.js"></script>
+  </body>
+</html>
